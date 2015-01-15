@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper {
-  width: 640px;
+  width: 80%;
   margin: 0 auto;
   background: #DEDEDE;
   -webkit-border-radius: 8px;
@@ -65,13 +65,13 @@ header {
   background: -ms-linear-gradient(#ddfbfc, #c6eafa);
   background: linear-gradient(#ddfbfc, #c6eafa);
   position: relative;
-  padding: 15px 20px;
+  padding: 25px 30px;
   border-bottom: 1px solid #B2D2E1;
 }
 header h1 {
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 40px;
   line-height: 1.2;
   color: #069;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
@@ -84,6 +84,7 @@ header p {
   color: #61778B;
   width: 300px;
   font-size: 13px;
+  padding-top: 5px;
 }
 header p.view {
   display: none;
@@ -103,8 +104,8 @@ header ul {
   list-style: none;
   position: absolute;
   z-index: 1;
-  right: 20px;
-  top: 20px;
+  right: 80px;
+  top: 40px;
   height: 38px;
   padding: 1px 0;
   background: #5198DF;
@@ -139,10 +140,10 @@ header ul:before {
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
 header ul li {
-  width: 79px;
+  width: auto;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 38px;
+  height: auto;
 }
 header ul li.single {
   border: none;
@@ -156,27 +157,23 @@ header ul li + li + li {
   width: 79px;
 }
 header ul a {
-  line-height: 1;
-  font-size: 11px;
-  color: #fff;
+  line-height: 2.8;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.8);
-  display: block;
   text-align: center;
   font-weight: 400;
-  padding-top: 6px;
-  height: 40px;
+  padding: 10px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
   font-size: 14px;
-  display: block;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
 section {
-  padding: 15px 20px;
-  font-size: 15px;
+  padding: 35px 40px;
+  font-size: 16px;
   border-top: 1px solid #fff;
   background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
   background: -webkit-linear-gradient(#fafafa, #dedede 700px);
@@ -195,7 +192,7 @@ section {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   line-height: 1.2;
 }
 
@@ -217,6 +214,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color: #494949;
+  margin-top: 10px;
 }
 
 blockquote {
@@ -260,8 +258,9 @@ table {
 
 th, td {
   text-align: left;
-  padding: 5px 10px;
-  border-bottom: 1px solid #aaa;
+  padding-left: 5px;
+  padding-right: 5px;
+  border:none;
 }
 
 dt {
@@ -281,7 +280,11 @@ hr {
   border: 0;
   background: #aaa;
   height: 1px;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
+}
+
+portrait {
+  float: right;
 }
 
 footer {
@@ -353,4 +356,26 @@ footer p + p {
   header p.view a small:before {
     content: 'at http://github.com/';
   }
+}
+p.basic_info {
+  font-size: 17px;
+  width: 65%;
+  float: left;
+  margin-right: 5%;
+}
+strong.basic_info {
+  font-size: 30px;
+  color: #069;
+}
+img.portrait{
+  float: right;
+  width: 30%;
+}
+p.cv_left{
+  float:left;
+  margin:0;
+}
+p.cv_right{
+  float:right;
+  margin:0;
 }
