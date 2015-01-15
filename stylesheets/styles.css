@@ -196,10 +196,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
-}
-
 h1, h2, h3 {
   line-height: 1.1;
 }
@@ -214,7 +210,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color: #494949;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 blockquote {
@@ -292,6 +288,7 @@ footer {
   margin: 0 auto;
   padding: 20px 0 0;
   color: #ccc;
+  text-align:center;
   overflow: hidden;
 }
 footer a {
@@ -299,7 +296,7 @@ footer a {
   font-weight: bold;
 }
 footer p {
-  float: left;
+  float: none;
 }
 footer p + p {
   float: right;
@@ -328,11 +325,13 @@ footer p + p {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    padding: 20px;
+    padding: 20px;    
+    text-align: center;
     width: auto;
   }
   footer p {
     float: none;
+
     margin: 0;
   }
   footer p + p {
@@ -378,4 +377,8 @@ p.cv_left{
 p.cv_right{
   float:right;
   margin:0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
