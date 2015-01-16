@@ -19,7 +19,7 @@ fixScale = function(doc) {
 
 };
 function pageScroll(){
-    window.scrollBy(0,-100);
+    window.scrollBy(0,-400);
     scrolldelay = setTimeout('pageScroll()',100);
     var sTop=document.documentElement.scrollTop+document.body.scrollTop;
     if(sTop==0) clearTimeout(scrolldelay);

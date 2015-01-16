@@ -302,6 +302,11 @@ footer p + p {
   float: right;
 }
 
+footer img {
+  width: 10%;
+  cursor:pointer;
+}
+
 @media print, screen and (max-width: 740px) {
   body {
     padding: 0;
@@ -386,5 +391,14 @@ p.contact {
   margin:0;
 }
 a.contact {
+  cursor:pointer;
+}
+.float_tag {
+  position:fixed; 
+  bottom: -10px;
+  right: -70px;
+}
+img.backtotop {
+  width: 50%;
   cursor:pointer;
 }
