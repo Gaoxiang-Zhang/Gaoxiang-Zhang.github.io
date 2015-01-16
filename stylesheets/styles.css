@@ -366,9 +366,9 @@ footer img {
 }
 p.basic_info {
   font-size: 17px;
-  width: 65%;
+  width: 60%;
   float: left;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 strong.basic_info {
   font-size: 30px;
