@@ -24,3 +24,15 @@ function pageScroll(){
     var sTop=document.documentElement.scrollTop+document.body.scrollTop;
     if(sTop==0) clearTimeout(scrolldelay);
 }
+function show_code(obj){
+	var code=document.getElementById(obj);
+	var pos_x=document.body.clientWidth;
+	var pos_y=document.body.clientHeight;
+    code.style.left = pos_x*0.4+"px";
+	code.style.top = pos_y-pos_x*0.3+"px";
+	code.style.display = "block";
+}
+function hide_code(obj){
+	var d=document.getElementById(obj);
+	d.style.display = "none";
+}

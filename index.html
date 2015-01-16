@@ -14,7 +14,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body id="beginning">
+  <body id="base">
     <div class="wrapper">
       <header>
         <h1>Gaoxiang Zhang</h1>
@@ -169,9 +169,12 @@
   <img src="images/backtotop.png" class="backtotop" onclick="pageScroll()"></img>
 </div>
 <footer>
-  <img src="images/wechat.png"></img>
-  <img src="images/qq.png"></img>
+  <img id="mmcode" src="images/mmcode.png" class="code_pic"></img>
+  <img id="qqcode" src="images/qqcode.png" class="code_pic"></img>
+  <br />
   <img src="images/weibo.png"></img>
+  <img src="images/wechat.png" onmouseover="show_code('mmcode')" onmouseout="hide_code('mmcode')"></img>
+  <img src="images/qq.png" onmouseover="show_code('qqcode')" onmouseout="hide_code('qqcode')"></img>
   <img src="images/facebook.png"></img>
   <br />
   <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
